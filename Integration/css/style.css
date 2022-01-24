@@ -1,0 +1,42 @@
+    @import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+    body {
+        font-family: 'Raleway', sans-serif;
+    }
+    
+    img {
+        max-width: 100%;
+        display: block;
+    }
+    
+    .header__container-title {
+        display: flex;
+        align-items: baseline;
+        background-color: #c80000;
+        color: white;
+        padding: 20px 10px;
+    }
+    
+    .header__title {
+        font-size: 2rem;
+        font-weight: bold;
+    }
+    
+    .header__subtitle {
+        font-size: 0.8rem;
+        padding-left: 10px;
+        font-weight: 600;
+    }
+    
+    .header__theme-title {
+        font-size: 1rem;
+        text-align: center;
+        color: white;
+        background-color: #666;
+        padding: 8px;
+    }
+    
+    .header__theme-title--italic {
+        display: inline-block;
+        font-size: 1.2rem;
+        font-style: italic;
+    }

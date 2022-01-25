@@ -1,6 +1,6 @@
     @import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
     body {
-        font-family: 'Raleway', sans-serif;
+        font-family: 'Raleway', arial, sans-serif;
     }
     
     img {
@@ -39,4 +39,77 @@
         display: inline-block;
         font-size: 1.2rem;
         font-style: italic;
+    }
+    /* products list*/
+    
+    .main-container {
+        max-width: 760px;
+        margin: 15px auto
+    }
+    
+    .product-list {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+    
+    .product {
+        width: 30%;
+        border: 1px solid #eeeeee;
+        margin: 10px 10px;
+        padding: 10px;
+    }
+    
+    .product__img {
+        margin: 0 auto;
+    }
+    
+    .product__saga {
+        font-size: 0.8rem;
+        font-family: 'raleway', Arial, sans-serif;
+        color: #5c5b5b;
+        font-weight: bold;
+        padding: 10px 0 10px 0;
+        border-bottom: 1px solid #eeeeee;
+    }
+    
+    .product__title {
+        font-size: 1rem;
+        font-family: 'raleway', Arial, sans-serif;
+        font-weight: bold;
+        padding: 10px 0;
+    }
+    
+    .product__description {
+        font-size: 0.8rem;
+        text-align: left;
+        padding-bottom: 20px;
+    }
+    
+    .product__add-to-cart {
+        display: flex;
+        justify-content: space-around;
+        font-size: 0.8rem;
+        text-decoration: none;
+        background-color: #c80000;
+        color: white;
+        padding: 10px;
+        max-width: 100%;
+        width: 100%
+    }
+    
+    .product__add-to-cart-label {
+        font-size: 0.7rem
+    }
+    
+    .product___price {
+        font-size: 0.8rem;
+        font-weight: bold;
+        font-family: 'raleway', Arial, sans-serif;
+    }
+    
+    .product__price--strike {
+        font-size: 0.7rem;
+        font-weight: normal;
+        text-decoration: line-through;
     }

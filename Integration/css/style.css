@@ -141,6 +141,21 @@
         position: absolute;
         right: 0;
         margin-right: 10px;
+        animation-name: flash;
+        animation-duration: 2s;
+        animation-iteration-count: infinite;
+    }
+    
+    @keyframes flash {
+        from,
+        to,
+        50% {
+            opacity: 1;
+        }
+        25%,
+        75% {
+            opacity: 0;
+        }
     }
     /*footer*/
     

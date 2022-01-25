@@ -8,6 +8,12 @@
         display: block;
     }
     
+    .header {
+        position: sticky;
+        width: 100vw;
+        top: 0;
+    }
+    
     .header__container-title {
         display: flex;
         align-items: baseline;
@@ -44,7 +50,7 @@
     
     .main-container {
         max-width: 760px;
-        margin: 30px auto
+        margin: 30px auto;
     }
     
     .product-list {

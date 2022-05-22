@@ -47,6 +47,18 @@
         font-size: 1.2rem;
         font-style: italic;
     }
+
+    .soldes-ribbon{
+        position: fixed;
+        left: 0;
+        top:50%;
+        writing-mode: vertical-rl;
+        text-orientation: upright;
+        text-transform: uppercase;
+        padding: 8px;
+        border-radius: 0px 10px 10px 0px;
+
+    }
     /* products list*/
     
     .main-container {
@@ -61,7 +73,11 @@
     }
     
     .product:nth-child(6) {
-        order: -1
+        order: -2
+    }
+    
+    .product:nth-child(2) {
+        order: -3;
     }
     
     .product {
